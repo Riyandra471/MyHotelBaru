@@ -2,7 +2,7 @@ package com.example.android.hotelview;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-//test test dulu pak222
+//test test dulu pak222222222
 public class AboutActivity extends AppCompatActivity {
 
     @Override
