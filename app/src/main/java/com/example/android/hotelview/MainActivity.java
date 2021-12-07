@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         mRecyclerView = findViewById(R.id.recyclerView);
+//        test 4
 
         int gridColumnCount = getResources().getInteger(R.integer.grid_column_count);
         mRecyclerView.setLayoutManager(new GridLayoutManager(this, gridColumnCount));
