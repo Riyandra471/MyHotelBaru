@@ -34,7 +34,7 @@ public class RegisterActivity extends AppCompatActivity {
 
         tvRegister.setText(fromHtml("Back to " +
                 "</font><font color='#3b5998'>Login</font>"));
-
+//menuju ke halaman login dari register
         tvRegister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
