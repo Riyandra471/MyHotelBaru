@@ -47,7 +47,7 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String username = TxUsername.getText().toString().trim();
                 String password = TxPassword.getText().toString().trim();
-//ini alert adalah login simple jangan tidak tahu
+//ini alert adalah login simple jangan tidak tahu tempe
                 Boolean res = dbHelper.checkUser(username,password);
                 if(res == true){
                     Toast.makeText(LoginActivity.this, "Login Berhasil", Toast.LENGTH_SHORT).show();
